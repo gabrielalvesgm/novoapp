@@ -1,20 +1,4 @@
-GlueStack salva vidas.
-
-TouchableOpacity para botões opácos.
-ImagePicker.requestMediaLibraryPermissionsAsync() função que pede permissão ao usuário para gerênciar imagens do dispositivo. ImagePicker = Pegar Imagem.
-    Se permitido usar o ImagePicker.launchImageLibraryAsync() pegar uma imagem da galeria.
-    aspect: [1, 1] <-- imagens tem que ser quadrada
-    Se o usuário de fato escolher uma imagem ela irá aparecer no <Image>
-
-
-    //Componentes reutilizáveis:
-const TextoComCaixa = ({ placeholder, label}) => {
-    return (
-        <View style={styles.containerCaixas}>
-        <Text style={styles.descricao}>{label}</Text>
-        <TextInput
-          placeholder={placeholder}
-          style={styles.textInput}
-        />
-      </View>
-    );
+main em novo app > app > (tabs) > index.jsx
+header em novo app > components > Header.jsx
+Help-Page em novo app > components > HelpPage.jsx
+sideMenu em novo app > components > sideMenu.jsx
